@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.image{
+    width: 250px;
+    transform: rotate(-45deg);
+    margin: 10px;
+    margin-left: -195px;
+    margin-top: 20px;
+}
+.losango{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 70px;
+    width: 500px;
+    height: 500px;
+    background-color: #F9FBFA;
+    /* background: rgba(117, 210, 247, 0.925); */
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    /* Rotação */
+    transform: rotate(45deg);
+}
+.container{
+    position: absolute;
+    top: 25%; /* posiciona na metade da tela */
+    margin-top: -25px; /* e retrocede metade da altura */
+    left: 41.3%; /* posiciona na metade da tela */
+    margin-left: -100px; /* e retrocede metade da largura */
+}
+
+.text{
+    margin-top: -40px;
+    margin-left: 60px;
+    margin-bottom: 4px;
+    transform: rotate(-45deg);
+
+}
+.text2{
+    margin-top: 20px;
+    margin-left: 20px;
+    transform-origin: 115px -40px;
+    margin-bottom: 0px;
+    color: rgba(84, 87, 86, 0.699);
+    font-size: 25px;
+    transform: rotate(-45deg);
+}
+.icons{
+    margin-left: 5px;
+    width: 40px;
+}
+.buttons{
+    transform: rotate(-45deg);
+    transform-origin: 130px -90px;
+}
+
+/* RESPONSIVIDADE DO SITE */
+@media screen and (max-width: 1128px) {
+    .losango{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 200px;
+        transform-origin: 100px 70px;
+    }
+    .text{
+        font-size: 28px;
+        
+    }
+    .text2{
+        font-size: 20px;
+        transform-origin: 100px -35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .losango{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 200px;
+        transform-origin: 100px 70px;
+    }
+    .text{
+        font-size: 28px;
+    }
+    .text2{
+        font-size: 20px;
+    }
+    .container{
+        margin-left: -150px;
+    }
+}
+
+@media screen and (max-width: 718px) {
+    .losango{
+        max-width: 380px;
+        max-height: 380px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 200px;
+        transform-origin: 100px 62.5px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 25px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 18px;
+        transform-origin: 130px -3px;
+    }
+    .container{
+        margin-left: -125px;
+    }
+    .icons{
+        max-width: 30px;
+    }
+    .buttons{
+        transform-origin: 150px -50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .losango{
+        max-width: 350px;
+        max-height: 350px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 170px;
+        transform-origin: 100px 44px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 22px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 15px;
+        transform-origin: 130px -3px;
+    }
+    .container{
+        margin-left: -125px;
+    }
+    .icons{
+        max-width: 30px;
+    }
+    .buttons{
+        transform-origin: 150px -37px;
+    }
+}
+
+@media screen and (max-width: 411px){
+    .losango{
+        max-width: 320px;
+        max-height: 320px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 150px;
+        transform-origin: 100px 27px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 22px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 15px;
+        transform-origin: 140px 15px;
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: -122.5px;
+    }
+    .icons{
+        max-width: 30px;
+    }
+    .buttons{
+        transform-origin: 150px -29px;
+    }
+}
+@media screen and (max-width: 400px){
+    .losango{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .image{
+        margin-top: 13px;
+        max-width: 150px;
+        transform-origin: 100px 27px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 20px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -9px;
+        font-size: 15px;
+        transform-origin: 140px 15px;
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: -113.5px;
+    }
+    .icons{
+        max-width: 25px;
+    }
+    .buttons{
+        transform-origin: 150px -35px;
+    }
+}
+@media screen and (max-width: 375px){
+    .losango{
+        max-width: 310px;
+        max-height: 310px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 150px;
+        transform-origin: 100px 20px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 20px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 15px;
+        transform-origin: 146px -1px;
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: -110px;
+    }
+    .icons{
+        max-width: 30px;
+    }
+    .buttons{
+        transform-origin: 150px -30px;
+    }
+}
+@media screen and (max-width: 360px){
+    .losango{
+        max-width: 350px;
+        max-height: 350px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 150px;
+        transform-origin: 100px 44px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 22px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 15px;
+        transform-origin: 140px 15px;
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: -85.5px;
+    }
+    .icons{
+        max-width: 30px;
+    }
+    .buttons{
+        transform-origin: 150px -20px;
+    }
+}
+@media screen and (max-width: 320px){
+    .losango{
+        max-width: 320px;
+        max-height: 320px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 150px;
+        transform-origin: 100px 25px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 22px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 15px;
+        transform-origin: 140px 15px;
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: -82.5px;
+    }
+    .icons{
+        max-width: 30px;
+    }
+    .buttons{
+        transform-origin: 150px -29px;
+    }
+}
+@media screen and (max-width: 280px){
+    .losango{
+        max-width: 320px;
+        max-height: 320px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 150px;
+        transform-origin: 100px 25px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 22px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 15px;
+        transform-origin: 140px 15px;
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: -72.5px;
+    }
+    .icons{
+        max-width: 30px;
+    }
+    .buttons{
+        transform-origin: 150px -29px;
+    }
+}
