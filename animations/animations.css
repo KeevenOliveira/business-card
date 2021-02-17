@@ -10,8 +10,12 @@ body{
 }
 .container:before {
     content: '';
+    background: #2BC0E4;
+    background: -moz-linear-gradient(left, #2BC0E4 0%, #EAECC6 100%);
+    background: -webkit-linear-gradient(left, #2BC0E4 0%, #EAECC6 100%);
     background: linear-gradient(to right, #2BC0E4 0%, #EAECC6 100%);
-    /* background: linear-gradient(to right, #1A2980 0%, #26D0CE 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2BC0E4', endColorstr='#EAECC6',GradientType=1 );
+                                        /* background: linear-gradient(to right, #1A2980 0%, #26D0CE 100%); */
     /* dark mode */
     position: absolute;
     top: -2px;
