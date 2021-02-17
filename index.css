@@ -23,7 +23,7 @@
     /* margin-top: 10px;
     margin-left: 10px; */
     /* Rotação */
-    transform: rotate(45deg);
+    /* transform: rotate(90deg); */
 }
 .container{
     position: absolute;
@@ -31,6 +31,7 @@
     margin-top: -25px; /* e retrocede metade da altura */
     left: 41.3%; /* posiciona na metade da tela */
     margin-left: -100px; /* e retrocede metade da largura */
+    transform: rotate(45deg);
 }
 
 .text{

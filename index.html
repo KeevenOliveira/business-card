@@ -11,8 +11,7 @@
 </head>
 <body>
     <div class='container'>
-        <Tilt class=''>
-            <div class='losango'>
+            <div class='losango' data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                 <img class='image' alt='Keeven' src='./assets/me.png'></img>
                 <h1 class='text'>Keeven Oliveira da Silva</h1>
                 <h2 class='text2'>Developer Full Stack</h2>
@@ -26,7 +25,16 @@
                     </div>
                 </div>
             </div>
-        </Tilt>
     </div>
+<script type="text/javascript" src="./animations/vanilla-tilt.js"></script>
+    <script>
+        
+        VanillaTilt.init(document.querySelector(".losango"))
+        // , {
+		// max: 25,
+		// speed: 400
+	    // });
+
+    </script>
 </body>
 </html>
