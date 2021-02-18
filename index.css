@@ -61,6 +61,36 @@
 }
 
 /* RESPONSIVIDADE DO SITE */
+@media screen and (max-width: 2000px){
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-1100px);
+        }
+    }
+}
+@media screen and (max-width: 1600px){
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-800px);
+        }
+    }
+}
 @media screen and (max-width: 1128px) {
     .losango{
         max-width: 400px;
@@ -165,6 +195,52 @@
         transform-origin: 150px -37px;
     }
 }
+@media screen and (max-width: 414px){
+    .losango{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 150px;
+        transform-origin: 100px 15px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 20px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 15px;
+        transform-origin: 140px -10px;
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: -110px; 
+    }
+    .icons{
+        max-width: 25px;
+    }
+    .buttons{
+        transform-origin: 140px -45px;
+    }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-731px);
+        }
+    }
+    
+}
 
 @media screen and (max-width: 411px){
     .losango{
@@ -189,7 +265,7 @@
     }
     .container{
         margin-top: 40px;
-        margin-left: -122.5px;
+        margin-left: -100px;
     }
     .icons{
         max-width: 30px;
@@ -197,6 +273,20 @@
     .buttons{
         transform-origin: 150px -29px;
     }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-731px);
+        }
+    }
+    
 }
 @media screen and (max-width: 400px){
     .losango{
@@ -229,26 +319,39 @@
     .buttons{
         transform-origin: 150px -35px;
     }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-848px);
+        }
+    }
 }
 @media screen and (max-width: 375px){
     .losango{
-        max-width: 310px;
-        max-height: 310px;
+        max-width: 280px;
+        max-height: 280px;
     }
     .image{
         margin-top: 25px;
-        max-width: 150px;
-        transform-origin: 100px 20px;
+        max-width: 130px;
+        transform-origin: 100px 2px;
     }
     .text{
         margin-top: -30px;
-        font-size: 20px;
+        font-size: 18px;
         transform-origin: 120px 25px;
         margin-bottom: -30px;
     }
     .text2{
         margin-top: -10px;
-        font-size: 15px;
+        font-size: 14px;
         transform-origin: 146px -1px;
     }
     .container{
@@ -256,36 +359,45 @@
         margin-left: -110px;
     }
     .icons{
-        max-width: 30px;
+        max-width: 25px;
     }
     .buttons{
         transform-origin: 150px -30px;
     }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-667px);
+        }
+    }
 }
 @media screen and (max-width: 360px){
     .losango{
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 280px;
+        max-height: 280px;
     }
     .image{
         margin-top: 25px;
-        max-width: 150px;
-        transform-origin: 100px 44px;
+        max-width: 120px;
+        transform-origin: 100px 4px;
     }
     .text{
         margin-top: -30px;
-        font-size: 22px;
-        transform-origin: 120px 25px;
+        font-size: 18px;
+        transform-origin: 100px 35px;
         margin-bottom: -30px;
     }
     .text2{
         margin-top: -10px;
         font-size: 15px;
         transform-origin: 140px 15px;
-    }
-    .container{
-        margin-top: 40px;
-        margin-left: -85.5px;
     }
     .icons{
         max-width: 30px;
@@ -293,58 +405,84 @@
     .buttons{
         transform-origin: 150px -20px;
     }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-640px);
+        }
+    }
 }
 @media screen and (max-width: 320px){
     .losango{
-        max-width: 320px;
-        max-height: 320px;
+        max-width: 250px;
+        max-height: 250px;
     }
     .image{
         margin-top: 25px;
-        max-width: 150px;
-        transform-origin: 100px 25px;
+        max-width: 120px;
+        transform-origin: 100px -15px;
     }
     .text{
         margin-top: -30px;
-        font-size: 22px;
-        transform-origin: 120px 25px;
+        font-size: 15px;
+        transform-origin: 100px 35px;
         margin-bottom: -30px;
     }
     .text2{
         margin-top: -10px;
-        font-size: 15px;
-        transform-origin: 140px 15px;
-    }
-    .container{
-        margin-top: 40px;
-        margin-left: -82.5px;
+        font-size: 12px;
+        transform-origin: 140px 1px;
     }
     .icons{
-        max-width: 30px;
+        max-width: 20px;
     }
+    .container{
+        margin-left: -100px;
+    }
+    
     .buttons{
-        transform-origin: 150px -29px;
+        transform-origin: 150px -30px;
+    }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-568px);
+        }
     }
 }
 @media screen and (max-width: 280px){
     .losango{
-        max-width: 320px;
-        max-height: 320px;
+        max-width: 280px;
+        max-height: 280px;
     }
     .image{
         margin-top: 25px;
-        max-width: 150px;
-        transform-origin: 100px 25px;
+        max-width: 120px;
+        transform-origin: 100px 1px;
     }
     .text{
         margin-top: -30px;
-        font-size: 22px;
+        font-size: 18px;
         transform-origin: 120px 25px;
         margin-bottom: -30px;
     }
     .text2{
         margin-top: -10px;
-        font-size: 15px;
+        font-size: 12px;
         transform-origin: 140px 15px;
     }
     .container{
@@ -352,9 +490,22 @@
         margin-left: -72.5px;
     }
     .icons{
-        max-width: 30px;
+        max-width: 20px;
     }
     .buttons{
         transform-origin: 150px -29px;
+    }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-653px);
+        }
     }
 }
