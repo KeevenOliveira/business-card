@@ -194,6 +194,51 @@
     .buttons{
         transform-origin: 150px -37px;
     }
+}@media screen and (max-width: 500px){
+    .losango{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 150px;
+        transform-origin: 100px 15px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 20px;
+        transform-origin: 120px 25px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 15px;
+        transform-origin: 140px -10px;
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: -110px; 
+    }
+    .icons{
+        max-width: 25px;
+    }
+    .buttons{
+        transform-origin: 140px -45px;
+    }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-731px);
+        }
+    }
+    
 }
 @media screen and (max-width: 414px){
     .losango{
@@ -242,36 +287,36 @@
     
 }
 
-@media screen and (max-width: 411px){
+@media screen and (max-width: 414px){
     .losango{
-        max-width: 320px;
-        max-height: 320px;
+        max-width: 300px;
+        max-height: 300px;
     }
     .image{
         margin-top: 25px;
         max-width: 150px;
-        transform-origin: 100px 27px;
+        transform-origin: 100px 15px;
     }
     .text{
         margin-top: -30px;
-        font-size: 22px;
+        font-size: 20px;
         transform-origin: 120px 25px;
         margin-bottom: -30px;
     }
     .text2{
         margin-top: -10px;
         font-size: 15px;
-        transform-origin: 140px 15px;
+        transform-origin: 140px -10px;
     }
     .container{
         margin-top: 40px;
-        margin-left: -100px;
+        margin-left: -110px; 
     }
     .icons{
-        max-width: 30px;
+        max-width: 25px;
     }
     .buttons{
-        transform-origin: 150px -29px;
+        transform-origin: 140px -45px;
     }
     @keyframes up {
         from{
@@ -286,8 +331,7 @@
             transform: translateY(-731px);
         }
     }
-    
-}
+}   
 @media screen and (max-width: 400px){
     .losango{
         max-width: 300px;
@@ -466,34 +510,34 @@
 }
 @media screen and (max-width: 280px){
     .losango{
-        max-width: 280px;
-        max-height: 280px;
+        max-width: 250px;
+        max-height: 250px;
     }
     .image{
         margin-top: 25px;
         max-width: 120px;
-        transform-origin: 100px 1px;
+        transform-origin: 100px -15px;
     }
     .text{
         margin-top: -30px;
-        font-size: 18px;
-        transform-origin: 120px 25px;
+        font-size: 15px;
+        transform-origin: 100px 35px;
         margin-bottom: -30px;
     }
     .text2{
         margin-top: -10px;
         font-size: 12px;
-        transform-origin: 140px 15px;
-    }
-    .container{
-        margin-top: 40px;
-        margin-left: -72.5px;
+        transform-origin: 140px 1px;
     }
     .icons{
         max-width: 20px;
     }
+    .container{
+        margin-left: -100px;
+    }
+    
     .buttons{
-        transform-origin: 150px -29px;
+        transform-origin: 150px -30px;
     }
     @keyframes up {
         from{
@@ -505,7 +549,52 @@
         }
         to{
             opacity: 0;
-            transform: translateY(-653px);
+            transform: translateY(-568px);
+        }
+    }
+}
+@media screen and (max-width: 200px){
+    .losango{
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .image{
+        margin-top: 25px;
+        max-width: 120px;
+        transform-origin: 100px -15px;
+    }
+    .text{
+        margin-top: -30px;
+        font-size: 15px;
+        transform-origin: 100px 35px;
+        margin-bottom: -30px;
+    }
+    .text2{
+        margin-top: -10px;
+        font-size: 12px;
+        transform-origin: 140px 1px;
+    }
+    .icons{
+        max-width: 20px;
+    }
+    .container{
+        margin-left: -100px;
+    }
+    
+    .buttons{
+        transform-origin: 150px -30px;
+    }
+    @keyframes up {
+        from{
+            opacity: 0;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+            transform: translateY(-568px);
         }
     }
 }
