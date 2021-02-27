@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="./index.css">
     <link type="text/css" rel="stylesheet" href='./animations/animations.css'>
-    <link rel="icon" href="./assets/cartao-de-visita.svg">
+    <link type="text/css" rel="icon" href="./assets/cartao-de-visita.svg">
+    <link type="text/css" rel="stylesheet" href="./animations/darkMode/darkStyle.css">
     <title>Cartão de visitas</title>
 </head>
 <body>
     <ul class="squares">
         <li></li>
     </ul>
+    <header>
+        <div class="toggle">
+            <input id="switch" type="checkbox" name="theme">
+            <label for="switch">toggle</label>
+        </div>
+    </header>
     <div class='container'>
             <div class='losango' data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                 <img class='image' alt='Keeven' src='./assets/me.png'></img>
@@ -38,5 +45,6 @@
 
     </script>
     <script src="./animations/animation.js"></script>
+    <script src="./animations/darkMode/darkMode.js"></script>
 </body>
 </html>
