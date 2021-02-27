@@ -64,3 +64,17 @@ input:checked + label::after {
 label:active:after {
     width: 45px;
 }
+@media screen and (max-width: 360px){
+    .toggle{
+        margin: 45px;
+        margin-left: -20px;
+    }
+}
+@media screen and (max-width: 320px){
+    .toggle{
+        margin: 20px;
+    }
+    .container{
+        margin-left: -90px;
+    }
+}

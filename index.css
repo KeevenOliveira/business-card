@@ -443,6 +443,13 @@
     }
     .buttons{
         transform-origin: 150px -20px;
+    
+    }
+    .container{
+        margin-top: -10px;
+    }
+    .toggle{
+        margin:10px;
     }
     @keyframes up {
         from{
@@ -483,12 +490,14 @@
         max-width: 20px;
     }
     .container{
+        margin-top: -30px;
         margin-left: -100px;
     }
     
     .buttons{
         transform-origin: 150px -30px;
     }
+    
     @keyframes up {
         from{
             opacity: 0;
